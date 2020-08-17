@@ -4,4 +4,7 @@
 
  ### Solucionados:
  - [x] RNA Transcription
+ - [x] Word Count
+
+ ### Problemas laterais
  - [x] Nucleotide Count
