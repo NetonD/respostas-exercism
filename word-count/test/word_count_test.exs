@@ -11,7 +11,7 @@ defmodule WordCountTest do
     assert WordCount.count("one of each") == expected
   end
 
-  #@tag :pending
+  ##@tag :pending
   test "count multiple occurrences" do
     expected = %{"one" => 1, "fish" => 4, "two" => 1, "red" => 1, "blue" => 1}
     assert WordCount.count("one fish two fish red fish blue fish") == expected
@@ -47,7 +47,7 @@ defmodule WordCountTest do
     assert WordCount.count("go Go GO") == expected
   end
 
-  @tag :pending
+  #@tag :pending
   test "German" do
     expected = %{"götterfunken" => 1, "schöner" => 1, "freude" => 1}
     assert WordCount.count("Freude schöner Götterfunken") == expected
